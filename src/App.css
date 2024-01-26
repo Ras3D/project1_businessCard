@@ -1,0 +1,99 @@
+html,body{
+  margin: 0;
+  padding: 0
+}
+
+.app-main{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app-header{
+  padding: 2rem;
+  color: #ffffff;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, #090979 35%, #00d4ff 100%);
+}
+
+.app-profileImg{
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  display: block;
+  filter: drop-shadow(5px 5px 10px #000000);
+}
+
+.app-contact-buttons{
+  background-color: #00d4ff;
+  padding: 1rem;
+  display:flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.app-contact-buttons button{
+  padding: .5rem 1rem;
+  border-radius: .5rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap:.5rem;
+}
+
+.app-contact-buttons button:hover{
+  background-color: white;
+  color: black;
+}
+
+.app-contact-buttons .app-button-email{
+  background-color: grey;
+  color: #ffffff;
+}
+
+.app-contact-buttons .app-button-linkedIn{
+  background-color: blue;
+  color: #ffffff;
+}
+
+
+
+.app-section-about{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 10vw;
+  align-items: center;
+  background-color: #cccccc;
+}
+
+.app-section-interests{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 10vw;
+  align-items: center;
+  background-color: #cccccc;
+}
+
+.app-section-about p,
+.app-section-interests p{
+  align-self: flex-start;
+}
+
+.app-section-about h2,
+.app-section-interests h2{
+  align-self: flex-start;
+}
+
+.app-footer{
+  color: #ffffff;
+  padding: 1rem;
+  background-color: #090979;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
